@@ -1,0 +1,7 @@
+# C++ ignore list
+[Dd]ebug/
+Algorithms.VC.db
+Algorithms.VC.VC.opendb
+
+# visual studio git
+.vs/
