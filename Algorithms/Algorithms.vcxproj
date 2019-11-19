@@ -146,11 +146,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="MinMaxSquare.h" />
     <ClInclude Include="RockFestival.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MinMaxSquare.cpp" />
     <ClCompile Include="RockFestival.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\iostream" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
