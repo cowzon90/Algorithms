@@ -16,10 +16,16 @@
     <Filter Include="1.RockFestival">
       <UniqueIdentifier>{5d524b02-61e6-4bff-90fc-ca22a26994c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Square">
+      <UniqueIdentifier>{3aca933e-98d0-412c-a25f-1b57da82acf9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RockFestival.h">
       <Filter>1.RockFestival</Filter>
+    </ClInclude>
+    <ClInclude Include="MinMaxSquare.h">
+      <Filter>Square</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -29,5 +35,11 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="MinMaxSquare.cpp">
+      <Filter>Square</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\iostream" />
   </ItemGroup>
 </Project>
