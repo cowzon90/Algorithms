@@ -146,11 +146,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DRAWRECT.h" />
+    <ClInclude Include="ENDIANS.h" />
+    <ClInclude Include="MERCY.h" />
     <ClInclude Include="MinMaxSquare.h" />
     <ClInclude Include="RockFestival.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DRAWRECT.cpp" />
+    <ClCompile Include="ENDIANS.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MERCY.cpp" />
     <ClCompile Include="MinMaxSquare.cpp" />
     <ClCompile Include="RockFestival.cpp" />
   </ItemGroup>

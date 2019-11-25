@@ -15,8 +15,25 @@ void MinMaxSquare::FindSquare(int numberOfPoints, Point points[])	{
 
 	while (index < numberOfPoints) {
 
-		int currentX = (points + index * sizeof(Point))->x;
+		//// current Point
+		//Point currentPoint;// =
 
+		//// Loop for comparing current x
+		//for (int i = index + 1; i < numberOfPoints; i++) {
+
+		//	Point nextPoint;
+		//	int height;
+		//	if (currentPoint.x == nextPoint.x) {
+		//		height = nextPoint.y - currentPoint.y;
+
+
+		//	}
+		//	else {
+		//		index = i;
+		//		break;
+		//	}
+
+		//}
 
 
 	}
