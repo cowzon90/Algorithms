@@ -1,12 +1,43 @@
 //#include<iostream>
 #include"MinMaxSquare.h"
+#include <iostream>
 
 MinMaxSquare::MinMaxSquare() {
 
 }
 
+MinMaxSquare::~MinMaxSquare() {
+
+}
+
 void MinMaxSquare::FindSquare(int numberOfPoints, Point points[])	{
 
+	int index = 0;
+
+	while (index < numberOfPoints) {
+
+		//// current Point
+		//Point currentPoint;// =
+
+		//// Loop for comparing current x
+		//for (int i = index + 1; i < numberOfPoints; i++) {
+
+		//	Point nextPoint;
+		//	int height;
+		//	if (currentPoint.x == nextPoint.x) {
+		//		height = nextPoint.y - currentPoint.y;
+
+
+		//	}
+		//	else {
+		//		index = i;
+		//		break;
+		//	}
+
+		//}
+
+
+	}
 
 
 	return;
@@ -59,13 +90,46 @@ Point* MinMaxSquare::Order(int numberOfPoints, int x[], int y[]) {
 			}
 		}
 	}
-
-	// make points
-	Point* points;
+	
+	// Make Points
+	Point* points = new Point[numberOfPoints];
 	for (int i = 0; i < numberOfPoints; i++) {
-		(points + i)->x = x[i];
-		(points + i)->y = y[i];
+		(points + i * sizeof(Point))->x = x[i];
+		(points + i * sizeof(Point))->y = y[i];
 	}
 
 	return points;
+}
+
+int MinMaxSquare::FindValueWithK(int listLength, int *list, int findValue, int k, int locations) {
+
+	int findIndex = -1;
+	int index = 0;
+
+	while (index < listLength) {
+
+		int tValue = *(list + index * sizeof(int));
+		
+		// find value.
+		if (tValue == findValue) {
+			findIndex = index;
+			break;
+		}
+
+		if (tValue < findValue) {
+			// add k
+			index += k;
+
+			// out of length.
+			if (index > listLength) {
+
+			}
+		}
+		else {
+
+
+		}
+	}
+
+	return findIndex;
 }

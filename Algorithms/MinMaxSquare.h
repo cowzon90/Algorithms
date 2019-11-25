@@ -1,6 +1,6 @@
 #pragma once
-#ifndef MINMAXSQUARE.CPP
-#define MINMAXSQUARE.CPP
+#ifndef _MINMAXSQUARE_
+#define _MINMAXSQUARE_
 
 struct Point {
 	int x;
@@ -10,9 +10,12 @@ struct Point {
 class MinMaxSquare {
 public :
 	MinMaxSquare();
+	~MinMaxSquare();
 	void FindSquare(int numberOfPoints, Point points[]);
 	Point* Order(int numberOfPoints, Point points[]);
 	Point* Order(int numberOfPoints, int x[], int y[]);
+
+	int FindValueWithK(int listLength, int *list, int findValue, int k, int locations = 0);
 };
 
-#endif // !MINMAXSQUARE.CPP
+#endif // !_MINMAXSQUARE_

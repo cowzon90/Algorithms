@@ -1,14 +1,11 @@
 #include <iostream>
-#include "RockFestival.h"
-
+#include "DRAWRECT.h"
 using namespace std;
 
 int main() {
-	cout << "hello world" << endl;
+	
 
-	RockFestival rockFestival;
-
-	rockFestival.Test();
-
+	DRAWRECT::Run();
+	
 	return 0;
 }

@@ -19,6 +19,21 @@
     <Filter Include="Square">
       <UniqueIdentifier>{3aca933e-98d0-412c-a25f-1b57da82acf9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algospot">
+      <UniqueIdentifier>{b07a6202-61d4-44aa-8640-03aac223ddb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algospot\Tutorials">
+      <UniqueIdentifier>{ff3213c6-a69f-4d6c-9586-348928926b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algospot\Tutorials\1.MERCY">
+      <UniqueIdentifier>{c73e94f5-c097-4bc6-9fe7-0721b5e2c535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algospot\Tutorials\2.ENDIANS">
+      <UniqueIdentifier>{6038d5ad-b0e7-4810-8a6a-2358b83c7e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algospot\Tutorials\3.DRAWRECT">
+      <UniqueIdentifier>{d45babc8-2e43-46c4-9c68-6c00b15f97e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RockFestival.h">
@@ -26,6 +41,15 @@
     </ClInclude>
     <ClInclude Include="MinMaxSquare.h">
       <Filter>Square</Filter>
+    </ClInclude>
+    <ClInclude Include="ENDIANS.h">
+      <Filter>Algospot\Tutorials\2.ENDIANS</Filter>
+    </ClInclude>
+    <ClInclude Include="MERCY.h">
+      <Filter>Algospot\Tutorials\1.MERCY</Filter>
+    </ClInclude>
+    <ClInclude Include="DRAWRECT.h">
+      <Filter>Algospot\Tutorials\3.DRAWRECT</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +61,15 @@
     </ClCompile>
     <ClCompile Include="MinMaxSquare.cpp">
       <Filter>Square</Filter>
+    </ClCompile>
+    <ClCompile Include="MERCY.cpp">
+      <Filter>Algospot\Tutorials\1.MERCY</Filter>
+    </ClCompile>
+    <ClCompile Include="ENDIANS.cpp">
+      <Filter>Algospot\Tutorials\2.ENDIANS</Filter>
+    </ClCompile>
+    <ClCompile Include="DRAWRECT.cpp">
+      <Filter>Algospot\Tutorials\3.DRAWRECT</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
